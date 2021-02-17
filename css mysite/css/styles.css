@@ -2,12 +2,33 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
 }
 
+h1{
+    margin-top: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
 .top-container {
     background-color: #ccf2f4;
     position: relative;
     padding: 50px;
+    padding-bottom: 0px;
 }
 .top{
     background-color: red;
@@ -16,25 +37,21 @@ body{
 }
 
 .middle {
-    background-color: yellow;
-    height: 200px;
-    width: 200px;
+
 }
 
 .bottom {
-    background-color: pink;
-    height: 200px;
-    width: 200px;
+
 }
 
 .top-cloud {
     position: absolute;
-    right:30%;
-    top:25%;
+    right:25%;
+    top:10%;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 30%;
+    left: 25%;
     bottom: 300px;
 }
